@@ -6,7 +6,7 @@ int LedsPin[]={5, 4, 3, 2};
 
 void setup()
 {
-  for(int idx_led=0; idx_led < Nb_Pin_Leds; idx_led)
+  for(int idx_led=0; idx_led < Nb_Pin_Leds; idx_led++)
   {
     pinMode(LedsPin[idx_led], OUTPUT);
   }
